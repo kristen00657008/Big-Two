@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B6704525F8A1DD00EF1E96 /* Big_TwoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6704425F8A1DD00EF1E96 /* Big_TwoApp.swift */; };
+		49B6704725F8A1DD00EF1E96 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6704625F8A1DD00EF1E96 /* HomePageView.swift */; };
+		49B6704925F8A1DE00EF1E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B6704825F8A1DE00EF1E96 /* Assets.xcassets */; };
+		49B6704C25F8A1DE00EF1E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B6704B25F8A1DE00EF1E96 /* Preview Assets.xcassets */; };
+		AB3D7D9C2601DEC200667227 /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D7D9B2601DEC200667227 /* LobbyView.swift */; };
+		AB42238F260A1856001FB946 /* BankruptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42238E260A1856001FB946 /* BankruptView.swift */; };
+		AB422392260A1CC9001FB946 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB422391260A1CC9001FB946 /* music.mp3 */; };
+		AB42363526007A3800D90CA9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42363426007A3800D90CA9 /* GameView.swift */; };
+		AB42363926007B0900D90CA9 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42363826007B0900D90CA9 /* AppSetting.swift */; };
+		AB42363E26007F0D00D90CA9 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42363D26007F0D00D90CA9 /* Cards.swift */; };
+		AB423646260086A900D90CA9 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB423645260086A900D90CA9 /* testView.swift */; };
+		AB42364A2600D7BA00D90CA9 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4236492600D7BA00D90CA9 /* TopView.swift */; };
+		AB42364D2600D7F500D90CA9 /* PlayerCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42364C2600D7F500D90CA9 /* PlayerCardsView.swift */; };
+		AB4236512600E2E300D90CA9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4236502600E2E300D90CA9 /* Player.swift */; };
+		AB4236572600F6A700D90CA9 /* MidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4236562600F6A700D90CA9 /* MidView.swift */; };
+		AB42365B2600F6F200D90CA9 /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42365A2600F6F200D90CA9 /* GameSetting.swift */; };
+		AB43B9022608AB93005334FC /* HanyiSentyChalkOriginal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB43B9012608AB93005334FC /* HanyiSentyChalkOriginal.ttf */; };
+		AB43B9082608AE83005334FC /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43B9072608AE83005334FC /* DealCardView.swift */; };
+		AB43B90C2608BBB0005334FC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43B90B2608BBB0005334FC /* MenuView.swift */; };
+		AB47C9B12605DDD50018973B /* MyCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47C9B02605DDD50018973B /* MyCardsView.swift */; };
+		AB47C9B72606237D0018973B /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47C9B62606237D0018973B /* GameOverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49B6704125F8A1DD00EF1E96 /* Big Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B6704425F8A1DD00EF1E96 /* Big_TwoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_TwoApp.swift; sourceTree = "<group>"; };
+		49B6704625F8A1DD00EF1E96 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		49B6704825F8A1DE00EF1E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B6704B25F8A1DE00EF1E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49B6704D25F8A1DE00EF1E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3D7D9B2601DEC200667227 /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		AB42238E260A1856001FB946 /* BankruptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankruptView.swift; sourceTree = "<group>"; };
+		AB422391260A1CC9001FB946 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../Downloads/music.mp3; sourceTree = "<group>"; };
+		AB42363426007A3800D90CA9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AB42363826007B0900D90CA9 /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		AB42363D26007F0D00D90CA9 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		AB423645260086A900D90CA9 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		AB4236492600D7BA00D90CA9 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		AB42364C2600D7F500D90CA9 /* PlayerCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardsView.swift; sourceTree = "<group>"; };
+		AB4236502600E2E300D90CA9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		AB4236562600F6A700D90CA9 /* MidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidView.swift; sourceTree = "<group>"; };
+		AB42365A2600F6F200D90CA9 /* GameSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
+		AB43B9012608AB93005334FC /* HanyiSentyChalkOriginal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HanyiSentyChalkOriginal.ttf; path = ../../../Downloads/HanyiSentyChalkOriginal.ttf; sourceTree = "<group>"; };
+		AB43B9072608AE83005334FC /* DealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardView.swift; sourceTree = "<group>"; };
+		AB43B90B2608BBB0005334FC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		AB47C9B02605DDD50018973B /* MyCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsView.swift; sourceTree = "<group>"; };
+		AB47C9B62606237D0018973B /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B6703E25F8A1DD00EF1E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B6703825F8A1DD00EF1E96 = {
+			isa = PBXGroup;
+			children = (
+				49B6704325F8A1DD00EF1E96 /* Big Two */,
+				49B6704225F8A1DD00EF1E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B6704225F8A1DD00EF1E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B6704125F8A1DD00EF1E96 /* Big Two.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B6704325F8A1DD00EF1E96 /* Big Two */ = {
+			isa = PBXGroup;
+			children = (
+				49B6704425F8A1DD00EF1E96 /* Big_TwoApp.swift */,
+				49B6704625F8A1DD00EF1E96 /* HomePageView.swift */,
+				AB3D7D9B2601DEC200667227 /* LobbyView.swift */,
+				AB43B9072608AE83005334FC /* DealCardView.swift */,
+				AB42363426007A3800D90CA9 /* GameView.swift */,
+				AB42364C2600D7F500D90CA9 /* PlayerCardsView.swift */,
+				AB47C9B02605DDD50018973B /* MyCardsView.swift */,
+				AB43B90B2608BBB0005334FC /* MenuView.swift */,
+				AB4236492600D7BA00D90CA9 /* TopView.swift */,
+				AB4236562600F6A700D90CA9 /* MidView.swift */,
+				AB47C9B62606237D0018973B /* GameOverView.swift */,
+				AB42363826007B0900D90CA9 /* AppSetting.swift */,
+				AB42365A2600F6F200D90CA9 /* GameSetting.swift */,
+				AB42363D26007F0D00D90CA9 /* Cards.swift */,
+				AB4236502600E2E300D90CA9 /* Player.swift */,
+				AB423645260086A900D90CA9 /* testView.swift */,
+				AB42238E260A1856001FB946 /* BankruptView.swift */,
+				49B6704825F8A1DE00EF1E96 /* Assets.xcassets */,
+				49B6704D25F8A1DE00EF1E96 /* Info.plist */,
+				AB422391260A1CC9001FB946 /* music.mp3 */,
+				49B6704A25F8A1DE00EF1E96 /* Preview Content */,
+				AB43B9012608AB93005334FC /* HanyiSentyChalkOriginal.ttf */,
+			);
+			path = "Big Two";
+			sourceTree = "<group>";
+		};
+		49B6704A25F8A1DE00EF1E96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49B6704B25F8A1DE00EF1E96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B6704025F8A1DD00EF1E96 /* Big Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B6705025F8A1DE00EF1E96 /* Build configuration list for PBXNativeTarget "Big Two" */;
+			buildPhases = (
+				49B6703D25F8A1DD00EF1E96 /* Sources */,
+				49B6703E25F8A1DD00EF1E96 /* Frameworks */,
+				49B6703F25F8A1DD00EF1E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Big Two";
+			productName = "BIg Two";
+			productReference = 49B6704125F8A1DD00EF1E96 /* Big Two.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B6703925F8A1DD00EF1E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					49B6704025F8A1DD00EF1E96 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 49B6703C25F8A1DD00EF1E96 /* Build configuration list for PBXProject "Big Two" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B6703825F8A1DD00EF1E96;
+			productRefGroup = 49B6704225F8A1DD00EF1E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B6704025F8A1DD00EF1E96 /* Big Two */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B6703F25F8A1DD00EF1E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43B9022608AB93005334FC /* HanyiSentyChalkOriginal.ttf in Resources */,
+				49B6704C25F8A1DE00EF1E96 /* Preview Assets.xcassets in Resources */,
+				AB422392260A1CC9001FB946 /* music.mp3 in Resources */,
+				49B6704925F8A1DE00EF1E96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B6703D25F8A1DD00EF1E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47C9B72606237D0018973B /* GameOverView.swift in Sources */,
+				AB47C9B12605DDD50018973B /* MyCardsView.swift in Sources */,
+				AB42365B2600F6F200D90CA9 /* GameSetting.swift in Sources */,
+				AB42238F260A1856001FB946 /* BankruptView.swift in Sources */,
+				AB42364A2600D7BA00D90CA9 /* TopView.swift in Sources */,
+				AB42363E26007F0D00D90CA9 /* Cards.swift in Sources */,
+				AB42363926007B0900D90CA9 /* AppSetting.swift in Sources */,
+				AB4236512600E2E300D90CA9 /* Player.swift in Sources */,
+				AB3D7D9C2601DEC200667227 /* LobbyView.swift in Sources */,
+				AB423646260086A900D90CA9 /* testView.swift in Sources */,
+				AB43B90C2608BBB0005334FC /* MenuView.swift in Sources */,
+				AB4236572600F6A700D90CA9 /* MidView.swift in Sources */,
+				49B6704725F8A1DD00EF1E96 /* HomePageView.swift in Sources */,
+				AB43B9082608AE83005334FC /* DealCardView.swift in Sources */,
+				AB42364D2600D7F500D90CA9 /* PlayerCardsView.swift in Sources */,
+				AB42363526007A3800D90CA9 /* GameView.swift in Sources */,
+				49B6704525F8A1DD00EF1E96 /* Big_TwoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49B6704E25F8A1DE00EF1E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49B6704F25F8A1DE00EF1E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B6705125F8A1DE00EF1E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BIg Two/Preview Content\"";
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BIg Two/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chase.com.BIg-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B6705225F8A1DE00EF1E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BIg Two/Preview Content\"";
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BIg Two/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chase.com.BIg-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B6703C25F8A1DD00EF1E96 /* Build configuration list for PBXProject "Big Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B6704E25F8A1DE00EF1E96 /* Debug */,
+				49B6704F25F8A1DE00EF1E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B6705025F8A1DE00EF1E96 /* Build configuration list for PBXNativeTarget "Big Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B6705125F8A1DE00EF1E96 /* Debug */,
+				49B6705225F8A1DE00EF1E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B6703925F8A1DD00EF1E96 /* Project object */;
+}
